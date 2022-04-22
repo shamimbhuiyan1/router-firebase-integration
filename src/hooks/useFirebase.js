@@ -32,7 +32,7 @@ const useFirebase = () => {
     signOut(auth).then(() => {});
   };
 
-  //user state changed
+  //user state changed eta na dile amra jokhon site reload dibo tokhon page r login thakbe na .jemon login korar por refresh dile sign in cole jabe eta na dile
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
       setUser(user);
