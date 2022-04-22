@@ -38,7 +38,7 @@ const useFirebase = () => {
       setUser(user);
     });
   }, []);
-  //ei props gulo amra header pathacchi
+  //ei props gulo amra header pathacchi ba onno jelhane use korte cai
   return { user, signInWithGoogle, handleSignOut };
 };
 
